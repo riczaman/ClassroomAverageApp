@@ -1,0 +1,18 @@
+﻿  w7.cpp
+c:\users\ricky\desktop\lab7\datatable.h(74): warning C4244: 'initializing': conversion from 'unsigned int' to 'float', possible loss of data
+  c:\users\ricky\desktop\lab7\datatable.h(69): note: while compiling class template member function 'void w7::DataTable<float>::regression(T &,T &) const'
+          with
+          [
+              T=float
+          ]
+  c:\users\ricky\desktop\lab7\w7.cpp(43): note: see reference to function template instantiation 'void w7::DataTable<float>::regression(T &,T &) const' being compiled
+          with
+          [
+              T=float
+          ]
+  c:\users\ricky\desktop\lab7\w7.cpp(37): note: see reference to class template instantiation 'w7::DataTable<float>' being compiled
+c:\users\ricky\desktop\lab7\datatable.h(84): warning C4018: '<': signed/unsigned mismatch
+  c:\users\ricky\desktop\lab7\datatable.h(80): note: while compiling class template member function 'void w7::DataTable<float>::display(std::ostream &) const'
+  c:\users\ricky\desktop\lab7\datatable.h(93): note: see reference to function template instantiation 'void w7::DataTable<float>::display(std::ostream &) const' being compiled
+  Lab7.vcxproj -> C:\Users\ricky\Desktop\Lab7\Debug\Lab7.exe
+  Lab7.vcxproj -> C:\Users\ricky\Desktop\Lab7\Debug\Lab7.pdb (Partial PDB)
